@@ -1,0 +1,9 @@
+FROM openjdk:latest
+ARG artifact_version
+LABEL artifact_version=$artifact_version
+WORKDIR /loginreferenceproject
+RUN mkdir -p /opt/logs
+EXPOSE 3007
+COPY target/*.jar app.jar
+RUN ls
+ENTRYPOINT ["java","-jar","app.jar"]
