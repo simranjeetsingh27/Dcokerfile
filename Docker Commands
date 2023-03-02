@@ -2,3 +2,5 @@ How to get the full container id in docker - var=`docker ps -a --no-trunc | grep
 To get Real time logs - docker logs --follow containerid
 To get the stats of Docker containers - sudo docker stats --no-stream
 For Removing Docker - sudo dnf remove -y docker-ce docker-ce-cli containerd.io 
+Enable the Docker container - sudo systemctl enable docker 
+sudo systemctl start docker 
