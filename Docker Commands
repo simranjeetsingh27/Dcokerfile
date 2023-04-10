@@ -4,3 +4,4 @@ To get the stats of Docker containers - sudo docker stats --no-stream
 For Removing Docker - sudo dnf remove -y docker-ce docker-ce-cli containerd.io 
 Enable the Docker container - sudo systemctl enable docker 
 Start Docker Container - sudo systemctl start docker 
+Removing data from var folder - sudo docker system prune -a -f
