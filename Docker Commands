@@ -5,3 +5,4 @@ For Removing Docker - sudo dnf remove -y docker-ce docker-ce-cli containerd.io
 Enable the Docker container - sudo systemctl enable docker 
 Start Docker Container - sudo systemctl start docker 
 Removing data from var folder - sudo docker system prune -a -f
+For docker daemon debug - sudo dockerd --debug
