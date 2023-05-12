@@ -6,4 +6,4 @@ Enable the Docker container - sudo systemctl enable docker
 Start Docker Container - sudo systemctl start docker 
 Removing data from var folder - sudo docker system prune -a -f
 For Docker daemon debug - sudo dockerd --debug
-To prune container - sudo docker system prune -a -f
+To Prune container - sudo docker system prune -a -f
