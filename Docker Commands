@@ -8,3 +8,4 @@ Removing data from var folder - sudo docker system prune -a -f
 For Docker daemon debug - sudo dockerd --debug
 To Prune container - sudo docker system prune -a -f
 Stop all running containers: docker stop $(docker ps -a -q)
+Delete all stopped containers: docker rm $(docker ps -a -q)
