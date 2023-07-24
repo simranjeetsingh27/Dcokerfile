@@ -6,6 +6,5 @@ Enable the Docker container - sudo systemctl enable docker
 Start Docker Container - sudo systemctl start docker 
 Removing Data which are prune - sudo docker system prune -a -f
 For Docker daemon debug - sudo dockerd --debug
-To Prune container - sudo docker system prune -a -f
 Stop all running containers: docker stop $(docker ps -a -q)
 Delete all stopped containers: docker rm $(docker ps -a -q)
