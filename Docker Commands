@@ -8,4 +8,4 @@ Removing Data which are prune - sudo docker system prune -a -f
 For Docker daemon debug - sudo dockerd --debug
 Stop all running containers: docker stop $(docker ps -a -q)
 Delete all stopped containers: docker rm $(docker ps -a -q)
-docker commit : Create a new image from a container changes
+docker commit : Create a new Image from a container changes
